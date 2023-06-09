@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(86, 86, 86);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 560px;
+    width: 720px;
+    margin: 0 auto;
+}
+.box1{
+    height: 40px;
+    width: 700px;
+}
+.box1:first-child{
+    background-color: rgb(210, 11, 220);
+}
+.box1:last-child{
+    background-color: rgb(184, 184, 16);
+}
+.box2{
+    display: block;
+}
+.box2 :first-child{
+background-color: rgb(41, 143, 49);
+width: 220px;
+height: 150px;
+}
+.box2 :nth-child(2){
+    background-color: rgb(76, 255, 106);
+    width: 220px;
+    height: 200px;
+}
+.box4{
+    display: block;
+}
+.box4 :first-child{
+    background-color: rgb(87, 8, 91);
+    width: 480px;
+    height: 280px;
+}
+.box4 :last-child{
+    background-color: rgb(204, 198, 198);
+    width: 480px;
+    height: 70px;
+}
+.box6 :first-child{
+    background-color: rgb(1, 117, 1);
+    width: 550px;
+    height: 80px;
+}
+.box6 :last-child{
+    background-color: rgb(226, 171, 180);
+    width: 150px;
+    height: 80px;
+}
+
+.box7:first-child
+{
+    width: 500px;
+    height: 100px;
+}
+
+.box7:last-child
+{
+    width: 200px;
+    height: 100px;
+}
+
+.box6
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
